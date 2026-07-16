@@ -32,7 +32,7 @@ echo ("04- Ex: (trtolower): " . strtolower($nome));
 echo ("<br>");
 
 $nome = "gabrielle rodrigues furtado";
-echo ("05- Ex: (cfirst): " . ucfirst($nome));
+echo ("05- Ex: (ucfirst): " . ucfirst($nome));
 echo ("<br>");
 
 $nome = "gabrielle rodrigues furtado";
