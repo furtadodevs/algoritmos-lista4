@@ -52,7 +52,7 @@ echo ("09- Ex: (str_replace): " . str_replace("usuario","admin",$email));
 echo ("<br>");
 
 $email = "usuario@gmail.com";
-echo ("02- Ex: (trtoupper): " . strtoupper($email));
+echo ("10- Ex: (trtoupper): " . strtoupper($email));
 echo ("<br>");
 
 
