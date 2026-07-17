@@ -29,28 +29,32 @@ $produto = "Notebook Gamer";
 echo ("03- Ex: (strrev): " . strrev($produto));
 echo ("<br>");
 
-$preco = 4599.989;
-echo ("04- Ex: (number_format): " . number_format($preco,2,",","."));
+$produto = "Notebook Gamer";
+echo ("04- Ex: (substr): " . substr($produto, 0, 8));
 echo ("<br>");
 
 $preco = 4599.989;
-echo ("05- Ex: (round): " . round($preco));
+echo ("05- Ex: (number_format): " . number_format($preco,2,",","."));
 echo ("<br>");
 
 $preco = 4599.989;
-echo ("05- Ex: (ceil): " . ceil($preco));
+echo ("06- Ex: (round): " . round($preco));
 echo ("<br>");
 
 $preco = 4599.989;
-echo ("05- Ex: (floor): " . floor($preco));
+echo ("07- Ex: (ceil): " . ceil($preco));
+echo ("<br>");
+
+$preco = 4599.989;
+echo ("08- Ex: (floor): " . floor($preco));
 echo ("<br>");
 
 $desconto = -350;
-echo ("05- Ex: (abs): " . abs($desconto));
+echo ("09- Ex: (abs): " . abs($desconto));
 echo ("<br>");
 
 $numero = 5;
-echo ("06- Ex: (pow): " . pow($numero, 5));
+echo ("10- Ex: (pow): " . pow($numero, 5));
 echo ("<br>");
 
 

@@ -44,7 +44,7 @@ echo ("<br>");
 
 $frase = " Aprendendo PHP é muito divertido! ";
 echo ("08- Ex: (str_replace): " . str_replace("divertido", "interessante", $frase));
-echo ("<br>");;
+echo ("<br>");
 
 
 $frase = " Aprendendo PHP é muito divertido! ";
