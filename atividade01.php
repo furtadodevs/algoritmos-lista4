@@ -28,35 +28,35 @@ echo ("02- Ex: (trtoupper): " . strtoupper($nome));
 echo ("<br>");
 
 $nome = "GABRIELLE RODRIGUES FURTADO";
-echo ("04- Ex: (trtolower): " . strtolower($nome));
+echo ("03- Ex: (trtolower): " . strtolower($nome));
 echo ("<br>");
 
 $nome = "gabrielle rodrigues furtado";
-echo ("05- Ex: (ucfirst): " . ucfirst($nome));
+echo ("04- Ex: (ucfirst): " . ucfirst($nome));
 echo ("<br>");
 
 $nome = "gabrielle rodrigues furtado";
-echo ("06- Ex: (ucwords): " . ucwords($nome));
+echo ("05- Ex: (ucwords): " . ucwords($nome));
 echo ("<br>");
 
 $nome = "gabrielle rodrigues furtado";
-echo ("07- Ex: (strlen): " . strlen($nome));
+echo ("06- Ex: (strlen): " . strlen($nome));
 echo ("<br>");
 
 $nota = 9.745;
-echo ("08- Ex: (number_format): " . number_format($nota, 2));
+echo ("07- Ex: (number_format): " . number_format($nota, 2));
 echo ("<br>");
 
 $nota = 9.745;
-echo ("09- Ex: (round): " . round($nota, 2));
+echo ("08- Ex: (round): " . round($nota, 2));
 echo ("<br>");
 
 $nota = 9.745;
-echo ("10- Ex: (ceil): " . ceil($nota));
+echo ("09- Ex: (ceil): " . ceil($nota));
 echo ("<br>");
 
 $nota = 9.745;
-echo ("11- Ex: (floor): " . floor($nota));
+echo ("10- Ex: (floor): " . floor($nota));
 echo ("<br>");
 
 
